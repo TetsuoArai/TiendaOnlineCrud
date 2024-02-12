@@ -1,0 +1,64 @@
+.principal {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding: 20px;
+}
+
+.formulario {
+  width: 100%;
+  max-width: 400px;
+  margin-bottom: 20px;
+}
+
+.formulario label {
+  display: block;
+  margin-bottom: 5px;
+}
+
+.formulario input {
+  width: 100%;
+  padding: 8px;
+  margin-bottom: 10px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+}
+
+.lista {
+  width: 100%;
+  max-width: 600px;
+}
+
+.lista ul {
+  list-style-type: none;
+  padding: 0;
+}
+
+.lista li {
+  margin-bottom: 20px;
+  padding: 10px;
+  background-color: #f9f9f9;
+  border-radius: 5px;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+
+.lista li img {
+  width: 100px;
+  height: auto;
+  margin-right: 20px;
+  border-radius: 5px;
+}
+
+.lista li h3 {
+  margin-bottom: 5px;
+}
+
+.lista li p {
+  margin: 0;
+}
+
+.Card-product{
+  display: grid;
+  grid-template-columns: repeat(2, minmax(200px, 1fr));
+  gap: 30px;
+}
